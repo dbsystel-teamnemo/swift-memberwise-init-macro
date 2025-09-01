@@ -27,7 +27,7 @@ let package = Package(
     //.conditionalPackage(url: "https://github.com/swiftlang/swift-syntax", envVar: "SWIFT_SYNTAX_VERSION", default: "509.0.0..<510.0.0")
     //.conditionalPackage(url: "https://github.com/swiftlang/swift-syntax", envVar: "SWIFT_SYNTAX_VERSION", default: "510.0.0..<511.0.0")
     //.conditionalPackage(url: "https://github.com/swiftlang/swift-syntax", envVar: "SWIFT_SYNTAX_VERSION", default: "511.0.0..<601.0.0-prerelease")
-    .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "601.0.0")
+    .package(url: "https://github.com/swiftlang/swift-syntax.git", exact: "602.0.0-prerelease-2025-08-11")
     //.conditionalPackage(
     //  url: "https://github.com/swiftlang/swift-syntax",
     //  envVar: "SWIFT_SYNTAX_VERSION",
